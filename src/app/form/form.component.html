@@ -1,0 +1,385 @@
+<div class="container main1">
+    <h1 style="text-align: center;">OT Hours Time Calculator</h1>
+</div>
+
+<div class="container">
+    <form [formGroup]="formValue">
+
+        <div class="row">
+            <!-- row 1 -->
+            <div class="col-sm">
+                <div class="card" style="width: 13rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 1</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day1" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 2</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day2" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 3</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day3" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 4</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day4" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 5</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day5" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 6</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day6" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 7</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day7" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 8</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day8" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 9</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day9" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 10</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day10" />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="col-sm">
+                <div class="card" style="width: 13rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 11</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day11" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 12</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day12" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 13</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day13" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 14</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day14" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 15</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day15" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 16</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day16" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 17</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day17" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 18</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day18" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 19</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day19" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 20</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day20" />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="col-sm">
+                <div class="card" style="width: 13rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 21</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day21" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 22</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day22" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 23</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day23" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 24</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day24" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 25</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day25" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 26</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day26" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 27</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day27" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 28</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day28" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 29</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day29" />
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 30</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day30" />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Row 4 -->
+            <div class="col-sm">
+                <div class="card" style="width: 13rem;">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col">
+                                    <label class="form-label">Day 31</label>
+                                </div>
+                                <div class="col">
+                                    <input (change)=calculateTotal() type="text" class="form-control"
+                                        formControlName="day31" />
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="position:absolute;bottom:0; right:0;" class="col-2 ">
+            <label class="form-label">Total hours</label>
+            <input (change)=calculateTotal() type="text" class="form-control" formControlName="totalhours" />
+        </div>
+    </form>
+</div>
